@@ -32,7 +32,7 @@ else {
 
 // Task 2
 console.log("Finding a leap year:");
-let year = prompt("Введите год:");
+let year = Number(prompt("Введите год:"));
 if (year % 4 === 0) {
     console.log("Год високосный")
 }
