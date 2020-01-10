@@ -13,7 +13,7 @@ var day = 08;
 var month = 03;
 
 // Task 1
-console.log("Finding uneven number");
+console.log("Finding uneven number:");
 /*for (n = 0; n <=2; n++){
     if (n % 2 == 1){
         console.log(n);
@@ -31,7 +31,7 @@ else {
 }
 
 // Task 2
-console.log("Finding a leap year");
+console.log("Finding a leap year:");
 let year = prompt("Введите год:");
 if (year % 4 === 0) {
     console.log("Год високосный")
@@ -41,7 +41,7 @@ else {
 }
 
 // Task 3
-console.log("Finding a number of middle value");
+console.log("Finding a number of middle value:");
 let number1 = Number(prompt("Insert first number:")),
     number2 = Number(prompt("Insert second number:")),
     number3 = Number(prompt("Insert third number:"));
@@ -62,7 +62,7 @@ else {
 
 
 // Task 4
-console.log("Finding a number of biggest value");
+console.log("Finding a number of biggest value:");
 let num1 = Number(prompt("Insert first number:")),
     num2 = Number(prompt("Insert second number:")),
     num3 = Number(prompt("Insert third number:"));
